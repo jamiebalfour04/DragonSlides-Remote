@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA7F4642D6B37E300CEC51E /* DragonSlides Remote Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3BA7F4632D6B37E300CEC51E /* DragonSlides Remote Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA7F4652D6B37E300CEC51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA7F4572D6B37E300CEC51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA7F4622D6B37E300CEC51E;
+			remoteInfo = "DragonSlides Remote Watch App";
+		};
+		3BA7F4762D6B37E400CEC51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA7F4572D6B37E300CEC51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA7F4622D6B37E300CEC51E;
+			remoteInfo = "DragonSlides Remote Watch App";
+		};
+		3BA7F4802D6B37E400CEC51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA7F4572D6B37E300CEC51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA7F4622D6B37E300CEC51E;
+			remoteInfo = "DragonSlides Remote Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA7F48C2D6B37E400CEC51E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3BA7F4642D6B37E300CEC51E /* DragonSlides Remote Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BA7F45D2D6B37E300CEC51E /* DragonSlides Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DragonSlides Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA7F4632D6B37E300CEC51E /* DragonSlides Remote Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DragonSlides Remote Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA7F4752D6B37E400CEC51E /* DragonSlides Remote Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DragonSlides Remote Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA7F47F2D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DragonSlides Remote Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3BA7F4672D6B37E300CEC51E /* DragonSlides Remote Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DragonSlides Remote Watch App";
+			sourceTree = "<group>";
+		};
+		3BA7F4782D6B37E400CEC51E /* DragonSlides Remote Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DragonSlides Remote Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3BA7F4822D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DragonSlides Remote Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA7F4602D6B37E300CEC51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F4722D6B37E400CEC51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F47C2D6B37E400CEC51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA7F4562D6B37E300CEC51E = {
+			isa = PBXGroup;
+			children = (
+				3BA7F4672D6B37E300CEC51E /* DragonSlides Remote Watch App */,
+				3BA7F4782D6B37E400CEC51E /* DragonSlides Remote Watch AppTests */,
+				3BA7F4822D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests */,
+				3BA7F45E2D6B37E300CEC51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA7F45E2D6B37E300CEC51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7F45D2D6B37E300CEC51E /* DragonSlides Remote.app */,
+				3BA7F4632D6B37E300CEC51E /* DragonSlides Remote Watch App.app */,
+				3BA7F4752D6B37E400CEC51E /* DragonSlides Remote Watch AppTests.xctest */,
+				3BA7F47F2D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA7F45C2D6B37E300CEC51E /* DragonSlides Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA7F48D2D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote" */;
+			buildPhases = (
+				3BA7F45B2D6B37E300CEC51E /* Resources */,
+				3BA7F48C2D6B37E400CEC51E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA7F4662D6B37E300CEC51E /* PBXTargetDependency */,
+			);
+			name = "DragonSlides Remote";
+			packageProductDependencies = (
+			);
+			productName = "DragonSlides Remote";
+			productReference = 3BA7F45D2D6B37E300CEC51E /* DragonSlides Remote.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3BA7F4622D6B37E300CEC51E /* DragonSlides Remote Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA7F4892D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch App" */;
+			buildPhases = (
+				3BA7F45F2D6B37E300CEC51E /* Sources */,
+				3BA7F4602D6B37E300CEC51E /* Frameworks */,
+				3BA7F4612D6B37E300CEC51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3BA7F4672D6B37E300CEC51E /* DragonSlides Remote Watch App */,
+			);
+			name = "DragonSlides Remote Watch App";
+			packageProductDependencies = (
+			);
+			productName = "DragonSlides Remote Watch App";
+			productReference = 3BA7F4632D6B37E300CEC51E /* DragonSlides Remote Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA7F4742D6B37E400CEC51E /* DragonSlides Remote Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA7F4902D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch AppTests" */;
+			buildPhases = (
+				3BA7F4712D6B37E400CEC51E /* Sources */,
+				3BA7F4722D6B37E400CEC51E /* Frameworks */,
+				3BA7F4732D6B37E400CEC51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA7F4772D6B37E400CEC51E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BA7F4782D6B37E400CEC51E /* DragonSlides Remote Watch AppTests */,
+			);
+			name = "DragonSlides Remote Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "DragonSlides Remote Watch AppTests";
+			productReference = 3BA7F4752D6B37E400CEC51E /* DragonSlides Remote Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA7F47E2D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA7F4932D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch AppUITests" */;
+			buildPhases = (
+				3BA7F47B2D6B37E400CEC51E /* Sources */,
+				3BA7F47C2D6B37E400CEC51E /* Frameworks */,
+				3BA7F47D2D6B37E400CEC51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA7F4812D6B37E400CEC51E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BA7F4822D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests */,
+			);
+			name = "DragonSlides Remote Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "DragonSlides Remote Watch AppUITests";
+			productReference = 3BA7F47F2D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA7F4572D6B37E300CEC51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3BA7F45C2D6B37E300CEC51E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3BA7F4622D6B37E300CEC51E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3BA7F4742D6B37E400CEC51E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BA7F4622D6B37E300CEC51E;
+					};
+					3BA7F47E2D6B37E400CEC51E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BA7F4622D6B37E300CEC51E;
+					};
+				};
+			};
+			buildConfigurationList = 3BA7F45A2D6B37E300CEC51E /* Build configuration list for PBXProject "DragonSlides Remote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA7F4562D6B37E300CEC51E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BA7F45E2D6B37E300CEC51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA7F45C2D6B37E300CEC51E /* DragonSlides Remote */,
+				3BA7F4622D6B37E300CEC51E /* DragonSlides Remote Watch App */,
+				3BA7F4742D6B37E400CEC51E /* DragonSlides Remote Watch AppTests */,
+				3BA7F47E2D6B37E400CEC51E /* DragonSlides Remote Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA7F45B2D6B37E300CEC51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F4612D6B37E300CEC51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F4732D6B37E400CEC51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F47D2D6B37E400CEC51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA7F45F2D6B37E300CEC51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F4712D6B37E400CEC51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA7F47B2D6B37E400CEC51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA7F4662D6B37E300CEC51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA7F4622D6B37E300CEC51E /* DragonSlides Remote Watch App */;
+			targetProxy = 3BA7F4652D6B37E300CEC51E /* PBXContainerItemProxy */;
+		};
+		3BA7F4772D6B37E400CEC51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA7F4622D6B37E300CEC51E /* DragonSlides Remote Watch App */;
+			targetProxy = 3BA7F4762D6B37E400CEC51E /* PBXContainerItemProxy */;
+		};
+		3BA7F4812D6B37E400CEC51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA7F4622D6B37E300CEC51E /* DragonSlides Remote Watch App */;
+			targetProxy = 3BA7F4802D6B37E400CEC51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BA7F4872D6B37E400CEC51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA7F4882D6B37E400CEC51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3BA7F48A2D6B37E400CEC51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragonSlides Remote Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlides Remote";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3BA7F48B2D6B37E400CEC51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragonSlides Remote Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlides Remote";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3BA7F48E2D6B37E400CEC51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlides Remote";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3BA7F48F2D6B37E400CEC51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				INFOPLIST_KEY_CFBundleDisplayName = "DragonSlides Remote";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA7F4912D6B37E400CEC51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonSlides Remote Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonSlides Remote Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3BA7F4922D6B37E400CEC51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonSlides Remote Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonSlides Remote Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3BA7F4942D6B37E400CEC51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DragonSlides Remote Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3BA7F4952D6B37E400CEC51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3RYY3HK66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamie-Balfour-Digital.DragonSlides-Remote-Control-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DragonSlides Remote Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA7F45A2D6B37E300CEC51E /* Build configuration list for PBXProject "DragonSlides Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA7F4872D6B37E400CEC51E /* Debug */,
+				3BA7F4882D6B37E400CEC51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA7F4892D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA7F48A2D6B37E400CEC51E /* Debug */,
+				3BA7F48B2D6B37E400CEC51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA7F48D2D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA7F48E2D6B37E400CEC51E /* Debug */,
+				3BA7F48F2D6B37E400CEC51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA7F4902D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA7F4912D6B37E400CEC51E /* Debug */,
+				3BA7F4922D6B37E400CEC51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA7F4932D6B37E400CEC51E /* Build configuration list for PBXNativeTarget "DragonSlides Remote Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA7F4942D6B37E400CEC51E /* Debug */,
+				3BA7F4952D6B37E400CEC51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA7F4572D6B37E300CEC51E /* Project object */;
+}
